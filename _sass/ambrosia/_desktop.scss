@@ -11,6 +11,12 @@ html, body {
   box-sizing: border-box;
   background-color: transparent;
 }
+div.postInfoContainer{
+  margin-top: 20vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 20vh;
+}
 div.content {
   top: 0;
   left: 0;
@@ -26,120 +32,104 @@ div.content {
   background-position: center;
   background-clip: border-box;
   background-attachment: fixed;
+  padding: 30px;
 }
 h2.post {
-  z-index: 1000;
   font-weight: lighter;
-  font-family: 'Vogue';
-  font-size: 70px;
-  color: #FFFFFF;
-  margin-top: 20vh;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  font-family: $stdFont;
+  font-size: 50px;
+  color: $mainColor;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
 }
 p.post {
   font-weight: lighter;
-  z-index: 1000;
-  font-family: 'Vogue';
-  font-size: 60px;
-  color: #FFFFFF;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  margin-top: 10px;
-  margin-bottom: 0px;
+  font-family: $stdFont;
+  font-size: 40px;
+  color: $mainColor;
   padding-top: 0px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 button.post {
   font-weight: lighter;
-  z-index: 1000;
-  font-family: 'Vogue';
+  font-family: $stdFont;
   font-size: 30px;
-  color: #FFFFFF;
-  margin-left: 7vw;
-  margin-right: 5vw;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  color: $mainColor;
+  margin: 0;
   padding: 20px;
-  border: 2px solid #FFF;
+  border: 1.5px solid $mainColor;
   background-color: transparent;
   transition-duration: 0.6s;
 }
 button.post:hover {
-  background-color: #FFF;
-  color: #000;
+  background-color: $mainColor;
+  color: $accentColor;
 }
 div.container {
   margin-top: 20vh;
-  padding: 20px;
+  padding: 30px;
   margin-left: 10vw;
   margin-right: 10vw;
-  background-color: #000;
+  background-color: $accentColor;
   margin-bottom: 20vh;
 }
 p {
   font-weight: lighter;
-  font-family: 'Vogue';
+  font-family: $stdFont;
   font-size: 27px;
-  color: #FFF;
+  color: $mainColor;
   margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
   padding-right: 0px;
-  padding-top: 10px;
-  padding-bottom: 20px;
   padding-left: 0px;
   text-align: left;
 }
 h2 {
   font-weight: lighter;
-  font-family: 'Vogue';
+  font-family: $stdFont;
   font-size: 40px;
-  color: #FFF;
+  color: $mainColor;
   margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
   padding-right: 0px;
-  padding-top: 10px;
-  padding-bottom: 0px;
   padding-left: 0px;
   text-align: left;
 }
 h3 {
   font-weight: lighter;
-  font-family: 'Vogue';
+  font-family: $stdFont;
   font-size: 35px;
-  color: #FFF;
+  color: $mainColor;
   margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
   padding-right: 0px;
-  padding-top: 10px;
-  padding-bottom: 0px;
   padding-left: 0px;
   text-align: left;
 }
 h4 {
   font-weight: lighter;
-  font-family: 'Vogue';
+  font-family: $stdFont;
   font-size: 30px;
-  color: #FFF;
+  color: $mainColor;
   margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
   padding-right: 0px;
-  padding-top: 10px;
-  padding-bottom: 0px;
   padding-left: 0px;
   text-align: left;
 }
 a {
   font-weight: lighter;
-  font-family: 'Vogue';
+  font-family: $stdFont;
   font-size: 27px;
-  color: #FFF;
+  color: $mainColor;
   text-decoration:underline;
   transition-duration: 0.6s;
 }
 a:hover {
-  color: #808080;
+  color: $hoverColor;
 }

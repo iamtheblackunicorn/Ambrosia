@@ -5,17 +5,22 @@
 
  <body>
   {% for post in site.posts %}
+  {% if post.show == true %}
   {% if post.bannerIsAbsolute == true %}
   <div class="content" style="background-image:url('{{ post.banner }}')">
   {% else %}
   <div class="content" style="background-image:url('{{ post.banner | prepend: site.baseurl }}')">
   {% endif %}
-   <h2 class="post">{{ post.title }}</h2>
-   <p class="post">
-    {{ post.description }}
-   </p>
-   <button class="post" onclick="window.location.href='{{ post.url | prepend: site.baseurl }}'">{{ site.readMeText }}</button>
+   <div class="postInfoContainer">
+    <h2 class="post">{{ post.title }}</h2>
+    <p class="post">
+     {{ post.description }}
+    </p>
+    <button class="post" onclick="window.location.href='{{ post.url | prepend: site.baseurl }}'">{{ site.readMeText }}</button>
+   </div>
   </div>
+  {% else %}
+  {% endif %}
   {% endfor %}
  </body>
 
