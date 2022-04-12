@@ -1,6 +1,9 @@
 ---
 layout: "page"
 title: "Page not found!"
+banner: "https://blckunicorn.art/assets/images/static/generic.jpg"
+bannerType: "jpg"
+bannerIsAbsolute: true
 ---
 
 ## ERROR!
