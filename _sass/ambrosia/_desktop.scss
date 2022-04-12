@@ -1,0 +1,145 @@
+@import 'variables';
+html, body {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+div.content {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  background-attachment: fixed;
+}
+h2.post {
+  z-index: 1000;
+  font-weight: lighter;
+  font-family: 'Vogue';
+  font-size: 70px;
+  color: #FFFFFF;
+  margin-top: 20vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+p.post {
+  font-weight: lighter;
+  z-index: 1000;
+  font-family: 'Vogue';
+  font-size: 60px;
+  color: #FFFFFF;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+button.post {
+  font-weight: lighter;
+  z-index: 1000;
+  font-family: 'Vogue';
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-left: 7vw;
+  margin-right: 5vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  border: 2px solid #FFF;
+  background-color: transparent;
+  transition-duration: 0.6s;
+}
+button.post:hover {
+  background-color: #FFF;
+  color: #000;
+}
+div.container {
+  margin-top: 20vh;
+  padding: 20px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  background-color: #000;
+  margin-bottom: 20vh;
+}
+p {
+  font-weight: lighter;
+  font-family: 'Vogue';
+  font-size: 27px;
+  color: #FFF;
+  margin: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  text-align: left;
+}
+h2 {
+  font-weight: lighter;
+  font-family: 'Vogue';
+  font-size: 40px;
+  color: #FFF;
+  margin: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-align: left;
+}
+h3 {
+  font-weight: lighter;
+  font-family: 'Vogue';
+  font-size: 35px;
+  color: #FFF;
+  margin: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-align: left;
+}
+h4 {
+  font-weight: lighter;
+  font-family: 'Vogue';
+  font-size: 30px;
+  color: #FFF;
+  margin: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-align: left;
+}
+a {
+  font-weight: lighter;
+  font-family: 'Vogue';
+  font-size: 27px;
+  color: #FFF;
+  text-decoration:underline;
+  transition-duration: 0.6s;
+}
+a:hover {
+  color: #808080;
+}

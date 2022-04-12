@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+ {% include header.html %}
+
+  <body>
+   {% if page.bannerIsAbsolute == true %}
+   <div class="content" style="background-image:url('{{ page.banner }}')">
+   {% else %}
+   <div class="content" style="background-image:url('{{ page.banner | prepend: site.baseurl }}')">
+   {% endif %}
+   <div class="container">
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.date_time }}</p>
+    {{ content }}
+   </div>
+  </div>
+ </body>
+
+</html>

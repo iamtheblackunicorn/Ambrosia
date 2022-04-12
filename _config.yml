@@ -1,0 +1,17 @@
+description: ""
+keywords: ""
+title: ""
+readMeText: ""
+bannerDescription: ""
+banner: ""
+future: true
+baseurl: ""
+url: "https://iamtheblackunicorn.github.io"
+feed:
+  path: "rss.xml"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-remote-theme
+  - github-pages
