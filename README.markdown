@@ -73,6 +73,21 @@ gem "jekyll-remote-theme"
 - `title`: The title of your post.
 - `bannerType`: Is your site a PNG or JPEG?
 - `bannerDescription`: What is your site's banner about?
+- `iconsAreAbsolute`: Are you fetching your icons from somewhere else?
+- `57x57`: The URL to an icon of that size.
+- `60x60`: The URL to an icon of that size.
+- `72x72`: The URL to an icon of that size.
+- `76x76`: The URL to an icon of that size.
+- `114x114`: The URL to an icon of that size.
+- `120x120`: The URL to an icon of that size.
+- `144x144`: The URL to an icon of that size.
+- `152x152`: The URL to an icon of that size.
+- `180x180`: The URL to an icon of that size.
+- `192x192`: The URL to an icon of that size.
+- `32x32`: The URL to an icon of that size.
+- `96x96`: The URL to an icon of that size.
+- `16x16`: The URL to an icon of that size.
+- `144x144`: The URL to an icon of that size.
 
 Have a look at this theme's [`sample post`](_posts/2022-03-24-Welcome-to-Jekyll.markdown) for guidance.
 
