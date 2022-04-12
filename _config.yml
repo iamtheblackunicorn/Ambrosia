@@ -20,8 +20,8 @@ iconsAreAbsolute: false
 readMeText: "READ"
 banner: "https://blckunicorn.art/assets/images/static/banner.png"
 future: true
-baseurl: ""
-url: "https://iamtheblackunicorn.github.io"
+baseurl: "/Ambrosia"
+url: "https://iamtheblackunicorn.github.io/Ambrosia"
 feed:
   path: "rss.xml"
 plugins:
