@@ -1,0 +1,40 @@
+@font-face { font-family: 'Vogue'; src: url("https://blckunicorn.art/assets/fonts/Vogue.ttf") format("truetype"); }
+/*
+AMBROSIA by Alexander Abraham, "The Black Unicorn".
+Licensed under the MIT license.
+*/
+@media screen and (max-width: 800px) { h2.post { font-size: 40px; }
+  p.post { font-size: 30px; }
+  button.post { font-size: 25px; padding: 10px; }
+  p { font-size: 21px; }
+  h2 { font-size: 30px; }
+  h3 { font-size: 25px; }
+  h4 { font-size: 23px; }
+  a { font-size: 21px; } }
+html, body { top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding: 0; width: 100vw; height: 100vh; box-sizing: border-box; background-color: transparent; }
+
+div.postInfoContainer { margin-top: 20vh; margin-left: 5vw; margin-right: 5vw; margin-bottom: 20vh; }
+
+div.content { top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding: 0; width: 100vw; height: 100vh; overflow: auto; background-repeat: no-repeat; background-size: cover; background-position: center; background-clip: border-box; background-attachment: fixed; padding: 30px; }
+
+h2.post { font-weight: lighter; font-family: "Vogue"; font-size: 50px; color: #FFFFFF; margin: 0px; padding-top: 0px; padding-bottom: 10px; }
+
+p.post { font-weight: lighter; font-family: "Vogue"; font-size: 40px; color: #FFFFFF; padding-top: 0px; padding-bottom: 20px; }
+
+button.post { font-weight: lighter; font-family: "Vogue"; font-size: 30px; color: #FFFFFF; margin: 0; padding: 20px; border: 1.5px solid #FFFFFF; background-color: transparent; transition-duration: 0.6s; }
+
+button.post:hover { background-color: #FFFFFF; color: #000000; }
+
+div.container { margin-top: 20vh; padding: 30px; margin-left: 10vw; margin-right: 10vw; background-color: #000000; margin-bottom: 20vh; }
+
+p { font-weight: lighter; font-family: "Vogue"; font-size: 27px; color: #FFFFFF; margin: 0px; padding-top: 0px; padding-bottom: 10px; padding-right: 0px; padding-left: 0px; text-align: left; }
+
+h2 { font-weight: lighter; font-family: "Vogue"; font-size: 40px; color: #FFFFFF; margin: 0px; padding-top: 0px; padding-bottom: 10px; padding-right: 0px; padding-left: 0px; text-align: left; }
+
+h3 { font-weight: lighter; font-family: "Vogue"; font-size: 35px; color: #FFFFFF; margin: 0px; padding-top: 0px; padding-bottom: 10px; padding-right: 0px; padding-left: 0px; text-align: left; }
+
+h4 { font-weight: lighter; font-family: "Vogue"; font-size: 30px; color: #FFFFFF; margin: 0px; padding-top: 0px; padding-bottom: 10px; padding-right: 0px; padding-left: 0px; text-align: left; }
+
+a { font-weight: lighter; font-family: "Vogue"; font-size: 27px; color: #FFFFFF; text-decoration: underline; transition-duration: 0.6s; }
+
+a:hover { color: #808080; }
