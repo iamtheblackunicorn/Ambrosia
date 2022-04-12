@@ -18,7 +18,6 @@ iconsAreAbsolute: false
 16x16: "/assets/images/favicon/favicon-16x16.png"
 144x144: "/assets/images/favicon/ms-icon-144x144.png"
 readMeText: "READ"
-bannerDescription: "The sign of sweetness and light."
 banner: "https://blckunicorn.art/assets/images/static/banner.png"
 future: true
 baseurl: ""
