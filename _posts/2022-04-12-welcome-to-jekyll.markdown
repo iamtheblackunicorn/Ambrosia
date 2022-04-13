@@ -4,6 +4,7 @@ date_time: "27/08/2021"
 title: "Welcome to Jekyll"
 description: "A short welcome post for Jekyll."
 bannerIsAbsolute: true
+bannerType: "jpg"
 banner: "https://blckunicorn.art/assets/images/posts/03.jpg"
 show: true
 bannerType: "jpg"
