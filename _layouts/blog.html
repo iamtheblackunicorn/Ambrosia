@@ -17,10 +17,11 @@
      {{ post.description }}
     </p>
     <button class="post" onclick="window.location.href='{{ post.url | prepend: site.baseurl }}'">{{ site.readMeText }}</button>
-   </div>
-  </div>
+   
   {% else %}
   {% endif %}
+    </div>
+  </div>
   {% endfor %}
  </body>
 
