@@ -53,19 +53,17 @@ gem "jekyll-gist"
 gem "jekyll-sitemap"
 gem "jekyll-paginate"
 gem "jekyll-remote-theme"
+gem "jekyll-theme-ambrosia", git: "https://github.com/iamtheblackunicorn/Ambrosia", branch: "main"
 ```
 
 ### Configuration variables
 
 #### Generic variables
 
-`description`: What is your site about?
-`keywords`: Which keyowrds describe your site?
-`title`: What is your site called?
-`readMeText`: Link text for posts.
-
-### Post variables
-
+- `description`: What is your site about?
+- `keywords`: Which keyowrds describe your site?
+- `title`: What is your site called?
+- `readMeText`: Link text for posts.
 - `description`: What is your post about? Keep it short.
 - `date_time`: When was the post released?
 - `banner`: URL to the post's banner.
@@ -88,6 +86,17 @@ gem "jekyll-remote-theme"
 - `96x96`: The URL to an icon of that size.
 - `16x16`: The URL to an icon of that size.
 - `144x144`: The URL to an icon of that size.
+
+### Post variables
+
+- `layout`: The layout to use.
+- `date_time`: When was the post made?
+- `title`: The title of your post. :)
+- `description`: What is your post about?
+- `bannerIsAbsolute`: Is the post's banner local?
+- `banner`: The URL to your banner.
+- `show`: Publish your post?
+- `bannerType`: What type of image is the banner?
 
 Have a look at this theme's [`sample post`](_posts/2022-03-24-Welcome-to-Jekyll.markdown) for guidance.
 
